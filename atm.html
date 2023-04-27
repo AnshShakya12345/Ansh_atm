@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ATM</title>
+        <link rel="stylesheet" href="design.css"/>
+    </head>
+    
+    <body>
+    <div id="machine">
+    <div id="screen">
+    <div id="insert">
+    Welcome to Ansh Ki bank!
+    </br>
+        Please Insert Card</br>
+
+    </div>
+    <div id="pin">
+      
+      Enter Pin: 
+      <form>
+      <input name="pin"/>
+      </br>
+      </br>
+      <div onclick="sub()" id="submit">
+      Submit
+      </div>
+      </form>
+          </div>
+    <div id="choice">
+    Click on your desirable option
+        <button style="background-color:yellow;margin:5px;border:1px solid black;border-radius:3px;" onclick="balance()">Check Balance</button>
+        </br>
+        <button style="background-color:Green;margin:5px;border:1px solid black;border-radius:3px;" onclick="cpin()">Change Pin</button>
+        </br>
+             <button style="background-color:magenta;margin:5px;border:1px solid black;border-radius:3px;" onclick="cwith()">Cash Withdraw</button>
+        </br>
+        
+     </div>
+     <div id="balance">
+     </div>
+     <div id="balbut">
+         <button style="background-color:Green;border:1px solid black; border-radius:3px;margin:5px;" onclick="welcome()"> Done
+         </button>
+     </div>
+     <div id="welcome">
+         Thank you for</br> Visiting Ansh Ki Bank!</br>
+         Remove your card
+         
+     </div>
+     <div id="cpin">
+       Enter your new pin
+   </br>
+   </br>
+    <input name="c"/>
+    </br>
+    </br>
+         <div onclick="change()" id="submit">
+      Change
+      </div>
+     </div>
+     <div id="withdraw">
+     Enter Amount to be withdraw:</br>
+     </br>
+     <input name="money"/>
+     </br>
+     </br>
+     <div onclick="withdraw()" id="submit">Withdraw</div>
+     </div>
+     <div id="error">
+         Invalid Pin!
+        <div id="balbut">
+         <button style="background-color:Green;border:1px solid black; border-radius:3px;margin:5px;" onclick="again()"> Try Again
+         </button>
+         </div>
+     </div>
+
+
+    </div>
+    <div id="card" onclick="colorchange()">
+        Insert card
+    </div>
+    <div id="card2" onclick="colorchange2()">
+       Remove card
+    </div>
+    
+    
+    </div>
+    <script src="calc.js"/>
+        
+    </body>
+</html>

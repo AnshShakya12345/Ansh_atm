@@ -1,0 +1,47 @@
+ #machine{
+    border:3px solid black;
+    margin:50px 0px 0px 30px;
+        height:500px;
+        background-color:#02D;
+        width:280px;
+    }
+    #screen{
+    position-text:absolute;
+   padding-top:70px;
+   margin:25px 0 0  15px;
+    border-radius:2px;
+        height:180px;
+        text-align:center;
+        width:250px;
+        background-color:white;
+    }
+    @keyframes animate{
+    0%{background-color:blue;}
+    50%{background-color:red;}
+    100%{background-color:red;}
+    }
+     @keyframes animate2{
+    0%{background-color:blue;}
+    50%{background-color:green;}
+    100%{background-color:green;}
+    }
+    
+    #card,#card2{
+    animation:animate 1s linear 0s infinite normal;
+    border:2px solid black;
+    height :10px;
+    top:20px;
+    width:50px;
+    margin:50px 0 0 105px;
+    background-color:green;
+      font-size:50%;
+      text-align:center;
+    }
+    #submit{
+        border:1px solid black;
+        border-radius:3px;
+        width:70px;
+        background-color:#0FF;
+        margin-left:85px;
+    }
+        
